@@ -1,1 +1,26 @@
+::placeholder {
+    color: rgb(152, 152, 152);
+}
 
+.list-group-item {
+    padding-left: 60px;
+    color: rgb(152, 152, 152);
+}
+
+.noPaddingLeft {
+    padding-left: 20px;
+    color: rgb(209, 209, 209);
+}
+
+span {
+    color:pink;
+    font-weight:100;
+    font-size: 100px;
+}
+
+.btn {
+    color: pink;    
+}
+.btn:hover {
+    color: pink;
+}

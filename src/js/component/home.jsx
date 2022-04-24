@@ -7,8 +7,8 @@ const Home = () => {
 	const [inputText, setInputText] = useState("");
 	const [todos, setTodos] = useState([]);
 	return (
-		<div>
-			<h1 className="text-center mt-5">Hello Rigact!</h1>
+		<div className="container col-4 d-flex flex-column align-items-center">
+			<span>todos</span>
 			<Form
 				inputText={inputText}
 				setInputText={setInputText}
