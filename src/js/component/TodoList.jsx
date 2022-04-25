@@ -33,6 +33,9 @@ const TodoList = ({ todos, setTodos }) => {
 					</li>
 				)}
 			</ul>
+			<div className="list-group-item shadow bottom"></div>
+			<div className="list-group-item shadow bottom-leaf"></div>
+			<div className="list-group-item shadow bottom-last"></div>
 		</div>
 	);
 };
